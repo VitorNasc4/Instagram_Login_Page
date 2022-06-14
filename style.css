@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+    background-color: rgba(241, 241, 241, 0.445);
+}
+
+.page {
+    max-width: 100rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    min-width: 20rem;
+    width: 100%;
+}
+
+#celphone-image {
+    height: 60rem;
+    opacity: 0;
+    animation: opacity-level 3s 500ms forwards ease;
+}
+
+@keyframes opacity-level {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.login-menu {
+    max-height: 35rem;
+    width: 40rem;
+    padding: 2.5rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(173, 173, 173, 0.301);
+}
+
+#instagram-logo {
+    margin-top: 2rem;
+}
+
+#profile-picture {
+    height: 10rem;
+    border-radius: 5rem;
+    margin: 2.5rem auto;
+}
+
+#profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.continue {
+    width: 23rem;
+    margin: 1rem auto 3rem;
+    padding: 5px;
+
+    background-color: #0494f4;
+    border-radius: 8px;
+
+    text-align: center;
+    
+    text-decoration: none;
+    color: white;
+}
+
+.continue:hover {
+    background-color: #035a94;
+}
+
+.change-account a {
+    text-decoration: none;
+    color: #0494f4;
+    font-weight: 600;
+}
+
+.change-account a:hover {
+    color: #035a94;
+}
+
+.change-account {
+    display: flex;
+    gap: 7px;
+}
+
+footer ul, .final-footer {
+    margin-top: 3rem;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    list-style: none;
+}
+
+footer ul li a, .final-footer {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

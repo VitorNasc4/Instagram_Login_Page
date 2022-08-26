@@ -15,7 +15,7 @@ The Instagram login page recreated with some changes like te transition next to 
  
 ## Demonstration
 
- ![Login page print](https://imgur.com/a/SplF05m)
+![Print](https://user-images.githubusercontent.com/101666833/186992280-821807ae-c341-402e-a6bf-99cef1fc11c9.png)
 
 
 ## References
